@@ -1,5 +1,5 @@
 /************************************************
-*	Headline																			*
+*	Headline									*
 ************************************************/
 
 .givingpress-headline {
@@ -25,7 +25,7 @@
 	}
 
 /************************************************
-*	Toggle Box																		*
+*	Toggle Box									*
 ************************************************/
 
 .toggle-box {
@@ -45,7 +45,7 @@
 	margin: 0px;
 	padding: 6px 12px;
 	cursor: pointer;
-	border: 1px solid rgba(0, 0, 0, .08);
+	border: 1px solid rgba(0,0,0, .08);
 	zoom: 1;
 	}
 .toggle-trigger.active {
@@ -70,20 +70,20 @@ p.toggle-trigger.active:before {
 	margin: 0px;
 	padding: 0px 24px 12px 24px;
 	overflow: hidden;
-	border-left: 1px solid rgba(0, 0, 0, .08);
-	border-right: 1px solid rgba(0, 0, 0, .08);
-	border-bottom: 1px solid rgba(0, 0, 0, .08);
+	border-left: 1px solid rgba(0,0,0, .08);
+	border-right: 1px solid rgba(0,0,0, .08);
+	border-bottom: 1px solid rgba(0,0,0, .08);
 	}
 
 /************************************************
-*	Horizontal Rating Bar													*
+*	Horizontal Rating Bar 			     	    *
 ************************************************/
 
 .rating-container {
 	display: block;
 	padding: 18px 0px;
 	overflow: hidden;
-	border-top: 1px solid rgba(0, 0, 0, .08);
+	border-top: 1px solid rgba(0,0,0, .08);
 	}
 .bar-rating {
 	float: left;
@@ -123,7 +123,7 @@ p.toggle-trigger.active:before {
 	}
 
 /************************************************
-*	Modal Box																			*
+*	Modal Box									*
 ************************************************/
 
 .givingpress-modal {
@@ -204,7 +204,7 @@ p.toggle-trigger.active:before {
 	}
 
 /************************************************
-*	Accordion																			*
+*	Accordion						   		    *
 ************************************************/
 
 .givingpress-accordion {
@@ -224,7 +224,7 @@ p.toggle-trigger.active:before {
 	margin-top: -1px;
 	padding: 6px 12px;
 	cursor: pointer;
-	border: 1px solid rgba(0, 0, 0, .08);
+	border: 1px solid rgba(0,0,0, .08);
 	zoom: 1;
 	}
 .ui-accordion .ui-accordion-header.ui-accordion-header-active {
@@ -249,13 +249,13 @@ p.toggle-trigger.active:before {
 .ui-accordion .ui-accordion-content {
 	margin-top: -1px;
 	padding: 18px 24px;
-	border: 1px solid rgba(0, 0, 0, .08);
+	border: 1px solid rgba(0,0,0, .08);
 	overflow: auto;
 	zoom: 1;
 	}
 
 /************************************************
-*	Tabs																					*
+*	Tabs							   		    *
 ************************************************/
 
 .givingpress-tabs {
@@ -284,13 +284,13 @@ p.toggle-trigger.active:before {
 	margin: 0px;
 	padding: 0;
 	white-space: nowrap;
-	border-top: 1px solid rgba(0, 0, 0, .08);
-	border-right: 1px solid rgba(0, 0, 0, .08);
-	border-bottom: 1px solid rgba(0, 0, 0, .08);
+	border-top: 1px solid rgba(0,0,0, .08);
+	border-right: 1px solid rgba(0,0,0, .08);
+	border-bottom: 1px solid rgba(0,0,0, .08);
 	}
 .givingpress-tabs ul#tabs li:first-child,
 .ui-tabs .ui-tabs-nav li:first-child {
-	border-left: 1px solid rgba(0, 0, 0, .08);
+	border-left: 1px solid rgba(0,0,0, .08);
 	}
 .givingpress-tabs ul#tabs li.ui-tabs-active,
 .ui-tabs .ui-tabs-nav li.ui-tabs-active {
@@ -329,7 +329,7 @@ p.toggle-trigger.active:before {
 	border-width: 0;
 	margin-top: -1px;
 	padding: 12px 24px;
-	border: 1px solid rgba(0, 0, 0, .08);
+	border: 1px solid rgba(0,0,0, .08);
 	border-radius: 0px 3px 3px 3px;
 	-moz-border-radius: 0px 3px 3px 3px;
 	-khtml-border-radius: 0px 3px 3px 3px;
@@ -344,7 +344,7 @@ p.toggle-trigger.active:before {
 	}
 
 /************************************************
-*	Icons																					*
+*	Icons							   		    *
 ************************************************/
 
 .givingpress-icon i {
@@ -356,7 +356,7 @@ p.toggle-trigger.active:before {
 	}
 
 /************************************************
-*	Buttons																				*
+*	Buttons							   		    *
 ************************************************/
 
 .givingpress-btn {
@@ -424,7 +424,7 @@ p.toggle-trigger.active:before {
 	background-color: #ff0000;
 	}
 .givingpress-btn.dark-red-btn {
-	background-color: #990000;
+	background-color: #0099ff;
 	}
 .givingpress-btn.yellow-btn {
 	background-color: #ffcc00;
@@ -445,44 +445,27 @@ p.toggle-trigger.active:before {
 .givingpress-btn.white-btn:hover span.btn-holder {
 	color: #333333 !important;
 	}
-.givingpress-btn .fa {
-	position: relative;
-	top: 1px;
-	font-size: 16px;
+.givingpress-btn.align-right {
+	float: right;
+	margin-left: 12px;
 	}
 .givingpress-btn.align-left {
 	float: left;
 	margin-right: 12px;
 	}
-.givingpress-btn.align-right {
-	float: right;
-	margin-left: 12px;
-	}
-.givingpress-btn.align-center {
-	float: none;
-	display: inline-block;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	}
-.btn-container.align-left {
-	float: none;
-	text-align: left;
-	}
-.btn-container.align-right {
-	float: none;
-	text-align: right;
+.givingpress-btn i {
+	position: relative;
+	top: 1px;
+	font-size: 16px;
 	}
 .btn-container.align-center {
 	float: none;
-	display: inline-block;
-	width: 100%;
 	text-align: center;
 	margin: 0px auto 0px;
 	}
 
 /************************************************
-*	Alert Boxes																		*
+*	Alert Boxes						   		    *
 ************************************************/
 
 .givingpress-box {
@@ -609,7 +592,7 @@ p.toggle-trigger.active:before {
 	}
 
 /************************************************
-*	Columns																				*
+*	Columns							   		    *
 ************************************************/
 
 .givingpress-column {
@@ -626,43 +609,43 @@ p.toggle-trigger.active:before {
 	}
 .givingpress-column:after {
 	content: '';
-	display: block;
-	height: 0;
-	clear: both;
-	visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
 	}
-.givingpress-column.one-half {
-	width: 48%;
+.one-half {
+	width:48%;
 	}
-.givingpress-column.one-third {
-	width: 30.66%;
+.one-third {
+	width:30.66%;
 	}
-.givingpress-column.two-third {
-	width: 65.33%;
+.two-third {
+	width:65.33%;
 	}
-.givingpress-column.one-fourth {
-	width: 22%;
+.one-fourth {
+	width:22%;
 	}
-.givingpress-column.three-fourth {
-	width: 74%;
+.three-fourth {
+	width:74%;
 	}
-.givingpress-column.one-fifth {
-	width: 16.8%;
+.one-fifth {
+	width:16.8%;
 	}
-.givingpress-column.two-fifth {
-	width: 37.6%;
+.two-fifth {
+	width:37.6%;
 	}
-.givingpress-column.three-fifth {
-	width: 58.4%;
+.three-fifth {
+	width:58.4%;
 	}
-.givingpress-column.four-fifth {
-	width: 67.2%;
+.four-fifth {
+	width:67.2%;
 	}
-.givingpress-column.one-sixth {
-	width: 13.33%;
+.one-sixth {
+	width:13.33%;
 	}
-.givingpress-column.five-sixth {
-	width: 82.67%;
+.five-sixth {
+	width:82.67%;
 	}
 .clearboth {
 	clear: both;
@@ -680,6 +663,9 @@ p.toggle-trigger.active:before {
 	.ui-tabs .ui-tabs-nav li a {
 		font-size: 0.7em;
 		}
+	.givingpress-column {
+		padding: 8px 0px;
+		}
 	.givingpress-headline {
 		font-size: 1.6rem;
 		letter-spacing: -0.8px;
@@ -688,15 +674,8 @@ p.toggle-trigger.active:before {
 		font-size: 1.2rem;
 		letter-spacing: -0.4px;
 		}
-	.givingpress-column {
-		padding: 12px 0px;
-		}
-	.one-half, .one-third, .two-third, .three-fourth, .one-fourth,
-	.one-fifth, .two-fifth, .three-fifth, .four-fifth, .one-sixth, .five-sixth,
-	.givingpress-column.one-half, .givingpress-column.one-third, .givingpress-column.two-third,
-	.givingpress-column.three-fourth, .givingpress-column.one-fourth, .givingpress-column.one-fifth,
-	.givingpress-column.two-fifth, .givingpress-column.three-fifth, .givingpress-column.four-fifth,
-	.givingpress-column.one-sixth, .givingpress-column.five-sixth {
+	.one-half, .one-third, .two-third, .three-fourth, .one-fourth, .one-fifth,
+	.two-fifth, .three-fifth, .four-fifth, .one-sixth, .five-sixth {
 		float: none;
 		width: 100%;
 		margin-right: 0px;
@@ -722,3 +701,13 @@ p.toggle-trigger.active:before {
 		}
 
 	}
+
+/************************************************
+*	Donor List Shortcode						   		    *
+************************************************/
+
+.donor-list td {
+	text-align:center;
+	padding-left: 5px;
+	padding-right: 5px;
+}
