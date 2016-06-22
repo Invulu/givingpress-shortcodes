@@ -1,4 +1,4 @@
-GivingPress Shortcodes v1.2
+GivingPress Shortcodes v1.3
 http://www.givingpress.com
 
 A set of simple shortcodes for use with the GivingPress Theme. Examples and instruction for the shortcode usage can be found on the demo site, http://preview.givingpress.com/shortcodes/
@@ -19,3 +19,8 @@ CHANGELOG v1.2:
 - Updated depreciated code
 - Bug fixes
 - Line fixes
+
+CHANGELOG v1.3:
+- Donor list shortcode
+- Button style updates
+- General cleanup

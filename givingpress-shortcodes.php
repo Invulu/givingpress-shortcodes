@@ -3,7 +3,7 @@
  * Plugin Name: GivingPress Shortcodes
  * Plugin URI: http://givingpress.com
  * Description: A set of simple, beautiful shortcodes for use with the GivingPress nonprofit website platform.
- * Version: 1.2
+ * Version: 1.3
  * Author: GivingPress
  * Author URI: http://givingpress.com
  * License: GNU General Public License v2 or later
