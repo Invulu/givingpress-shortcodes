@@ -199,9 +199,6 @@ p.toggle-trigger.active:before {
 	-ms-border-radius: 8px;
 	border-radius: 8px;
 }
-.jquery-modal.blocker {
-	z-index: 99 !important;
-}
 
 /************************************************
 *	Accordion						   		    *
